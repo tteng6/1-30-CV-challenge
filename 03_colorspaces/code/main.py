@@ -3,7 +3,7 @@ import os
 import cv2
 
 
-img = cv2.imread(os.path.join('.', 'bird.jpg'))
+img = cv2.imread(os.path.join('.', 'data', '2-1.png'))
 
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)

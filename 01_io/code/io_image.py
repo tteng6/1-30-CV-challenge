@@ -4,13 +4,11 @@ import cv2
 
 
 # read image
-image_path = os.path.join('.', 'data', 'bird.jpg')
-
-img = cv2.imread(image_path)
+img = cv2.imread('./data/2-1.png')
 
 # write image
 
-cv2.imwrite(os.path.join('.', 'data', 'bird_out.jpg'), img)
+cv2.imwrite(os.path.join('.', 'data', '2-1-io.png'), img)
 
 # visualize image
 

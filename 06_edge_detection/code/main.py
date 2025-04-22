@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 
 
-img = cv2.imread(os.path.join('.', 'basketball-player.jpg'))
+img = cv2.imread(os.path.join('.', 'data', '2-1.png'))
 
 img_edge = cv2.Canny(img, 100, 200)
 

@@ -4,7 +4,7 @@ import os
 import cv2
 
 
-img = cv2.imread(os.path.join('.', 'dogs.jpg'))
+img = cv2.imread(os.path.join('.', 'data', '2-1.png'))
 
 print(img.shape)
 

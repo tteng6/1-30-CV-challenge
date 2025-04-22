@@ -1,7 +1,7 @@
 import cv2
 
 # read webcam
-webcam = cv2.VideoCapture(2)
+webcam = cv2.VideoCapture(0)
 
 # visualize webcam
 
@@ -9,7 +9,7 @@ while True:
     ret, frame = webcam.read()
 
     cv2.imshow('frame', frame)
-    if cv2.waitKey(40) & 0xFF == ord('q'):
+    if cv2.waitKey(30) & 0xFF == ord('q'):
         break
 
 webcam.release()

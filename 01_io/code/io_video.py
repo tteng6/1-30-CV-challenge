@@ -4,7 +4,7 @@ import cv2
 
 
 # read video
-video_path = os.path.join('.', 'data', 'monkey.mp4')
+video_path = os.path.join('.', 'data', 'tank.mov')
 
 video = cv2.VideoCapture(video_path)
 
@@ -16,7 +16,7 @@ while ret:
 
     if ret:
         cv2.imshow('frame', frame)
-        cv2.waitKey(40)
+        cv2.waitKey(10)
 
 video.release()
 cv2.destroyAllWindows()

@@ -3,7 +3,7 @@ import os
 import cv2
 
 
-img = cv2.imread(os.path.join('.', 'handwritten.png'))
+img = cv2.imread(os.path.join('.', '05_threshold/code', 'handwritten.png'))
 
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 

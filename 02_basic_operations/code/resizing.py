@@ -4,7 +4,7 @@ import os
 import cv2
 
 
-img = cv2.imread(os.path.join('.', 'dogs.jpg'))
+img = cv2.imread(os.path.join('.', 'data', '2-1.png'))
 
 resized_img = cv2.resize(img, (640, 640))
 
